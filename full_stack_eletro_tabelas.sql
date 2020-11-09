@@ -1,26 +1,3 @@
-﻿create database fseletro
-
-default character set utf8
-default collate utf8_general_ci;
-
-use fseletro;
-
-
-create table comentarios (
-
-id int auto_increment,
-
-nome varchar (100),
-
-msg varchar (300),
-
-data datetime default now(),
-
-primary key (id)
-
-) default charset = utf8;
-
-
 
 create database fseletro
 
@@ -103,6 +80,22 @@ values
 ('Zilda Souza',973854411,'Micro-ondas Electrolux Painel Seguro 20L- 220',2089.05,1,2089.05),
 
 ('Ana Pula ',973854421,'Refrigerador Consul 340L-110v',1849.00,1,1849.00);
+
+
+
+create table comentarios (
+
+id int auto_increment,
+
+nome varchar (100),
+
+msg varchar (300),
+
+data datetime default now(),
+
+primary key (id)
+
+) default charset = utf8;
 
 
 
